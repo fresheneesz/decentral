@@ -1,0 +1,26 @@
+{
+  "name": "Decentral",
+  "description": "A library for building decentralized networks using WebRTC in node.js and the browser.",
+  "keywords": [
+    "decentralized",
+    "network"
+  ],
+  "dependencies": {
+    "node-stun": "^0.1.2",
+    "proto": "^1.0.19",
+    "rpep": "^2.0.3",
+    "rpep-msgpack": "^1.0.0",
+    "rpep-websockets": "^1.1.0",
+    "simple-peer": "^9.7.2",
+    "wrtc": "^0.4.5"
+  },
+  "author": "Billy Tetrud <bitetrudpublic@gmail.com> (https://github.com/fresheneesz/)",
+  "license": {
+    "name": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fresheneesz/decentral"
+  }
+}
