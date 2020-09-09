@@ -12,7 +12,7 @@ http.createServer(function (request, response) {
 
         var filepath = requestUrl.pathname
         if(filepath in {'/':1,'':1}) {
-            filepath = '/client.html'
+            filepath = '/src/client.html'
         }
 
         // Need to use path.normalize so people can't access directories underneath baseDirectory.

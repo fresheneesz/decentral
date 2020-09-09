@@ -1,14 +1,16 @@
 {
-  "name": "Decentral",
+  "name": "decentral",
+  "version": "0.1.0",
   "description": "A library for building decentralized networks using WebRTC in node.js and the browser.",
   "keywords": [
     "decentralized",
     "network"
   ],
   "dependencies": {
+    "nedb": "^1.8.0",
     "node-stun": "^0.1.2",
     "proto": "^1.0.19",
-    "rpep": "^2.0.3",
+    "rpep": "^2.0.5",
     "rpep-msgpack": "^1.0.0",
     "rpep-websockets": "^1.1.0",
     "simple-peer": "^9.7.2",
